@@ -1,0 +1,60 @@
+
+body {
+    background-color: rgb(183, 196, 209);
+}
+
+.corpo { 
+    width: 70%;
+    height: 500px;
+    margin: 0 auto;
+    background-color: rgb(33, 36, 35);
+    border-right: 3px solid white;
+    border-bottom: 3px solid white;
+}
+
+.titulo {
+    height: 80px;
+    color: white;
+}
+
+.box {
+    padding: 30px;
+    width: 90%;
+}
+
+label {
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+}
+
+.botton {
+    margin-top: 10px;
+}
+
+#save{
+    background-color: rgb(187, 39, 216) ;
+    width: 175px; 
+    border-radius: 50px;
+}
+
+#caixaDoNumero {
+    size: 40px;
+    font-size: 15px;
+}
+
+.output {
+    background-color: #FFF;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+}
+
+fieldset {
+    margin-top: 20px;
+    height: 40px;
+}
+
+.resultado{
+    margin: 0;
+    margin-top: 20px;
+}

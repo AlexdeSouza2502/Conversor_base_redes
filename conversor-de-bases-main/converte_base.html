@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Conversor</title>
+    <link rel="stylesheet" href="converte_base.css">
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+
+<body>
+    <main class="corpo">
+        <div class="titulo">
+            <label>
+                <h1>
+                    <center>conversor de bases:</center>
+                </h1>
+            </label>
+            <nav id="navbar">
+                <ul>
+                    <li><a href="intro.html">Introdução</a></li>
+                    <li><a href="paginagrupo.html">Grupo</a></li>
+                    <li><a href="convert_base.html">Conversor</a></li>
+            
+                </ul>
+            </nav> 
+        </div>
+        <div class="box">
+            <div class="interacao">
+                <div class="input">
+                    <label>
+                        <h2>informe o número:</h2>
+                    </label>
+                    <input type="text" id="caixaDoNumero" required />
+                    <select id="baseOrigem">
+                        <option value="2">Binário</option>
+                        <option value="8">Octal</option>
+                        <option value="10">Decimal</option>
+                        <option value="16">Hexadecimal</option>
+                    </select>
+                    <select id="baseDestino">
+                        <option value="2">Binário</option>
+                        <option value="8">Octal</option>
+                        <option value="10">Decimal</option>
+                        <option value="16">Hexadecimal</option>
+                    </select>
+                    <div class="botton">
+                        <input type="submit" id="save" value="Converter" />
+                    </div>
+                </div>
+
+                <label for="resultado">
+                    <h2>resultado:</h2>
+                </label>
+                <fieldset class="output">
+                    <form id="output"></form>
+                </fieldset>
+            </div>
+        </div>
+    </main>
+
+    <script src="js.js"></script>
+</body>
+
+</html>

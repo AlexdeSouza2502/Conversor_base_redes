@@ -1,0 +1,95 @@
+.container{
+    background-color: darkgray;
+    }
+    h1{
+    background-color: darkgray;
+    color: black;
+    padding: 0;
+    }
+    #navbar{
+    background-color: darkgray;
+    }
+    #navbar ul {
+    max-width: 800px;
+    list-style: none;
+    padding: 0;
+    
+    }
+    
+    #navbar li {
+    display: inline;
+    }
+    
+    #navbar ul li a {
+    color: black;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    }
+    #navbar ul li:hover{
+    background-color: rgb(24, 139, 233);
+    }
+    
+    .footer{
+    text-align: center;
+    color: white;
+    }
+    .footer:hover{
+    background-color: turquoise;
+    }
+    
+    .containerexpl{
+    width: 250px;
+    height: 100px;
+    display: inline-block;
+    padding-bottom: 2px;
+    padding-top: 0;
+    }
+    
+    .decimal{
+    width: 250px;
+    height: 100px;
+    display: inline-block;
+    padding-bottom: 2px;
+    padding-top: 0;
+    
+    }
+    
+    .binario{
+    width: 250px;
+    height: 100px;
+    display: inline-block;
+    padding-bottom: 2px;
+    padding-top: 0;
+    }
+    
+    .octal{
+    width: 250px;
+    height: 100px;
+    display: inline-block;
+    padding-bottom: 2px;
+    padding-top: 0;
+    }
+    
+    .hexadecimal{
+    width: 250px;
+    height: 100px;
+    display: inline-block;
+    padding-bottom: 2px;
+    padding-top: 0;
+    }
+    
+    .containerconv{
+    width: 250px;
+    height: 100px;
+    display: inline-block;
+    padding-bottom: 2px;
+    padding-top: 0;
+    }
+    
+    .grupo{
+    text-align: center;
+    }
+    .containerg{
+    text-align: center;
+    }
